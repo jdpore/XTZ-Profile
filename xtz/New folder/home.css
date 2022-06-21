@@ -55,3 +55,21 @@
   .background {
     background-image: linear-gradient(180deg, #eb8846, rgb(241, 241, 130));
   }
+
+  .background_main {
+    background-color: #F6F4EF;
+  }
+
+  .pic_size{
+    width: 80px;
+    height: 80px;
+  }
+
+  .logo_color{
+    color: #FF6600;
+  }
+
+  .text_shadow{
+    color: #000000;
+    text-shadow: 4px 4px;
+  }
