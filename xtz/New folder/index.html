@@ -10,9 +10,11 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
     crossorigin="anonymous"
   />
+  <script type="module" src="home.js"></script>
 </head>
 
 <body>
+  <!--NAVBAR-->
   <div class="topnav sticky" id="myTopnav">
     <a href="#contact">Contact</a>
     <a href="#career">Careers</a>
@@ -22,11 +24,16 @@
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
+    <a class="navbar-brand" href="#" style="align-self: left;">
+      <img src="/Assets/xtzlogo.png" width="70" height="30" alt="xtzlogo" >
+    </a>
   </div>
+
+<!--HOME-->
 
   <div class="row" id="home">
     <div class="background_right">
-      <div class="container">
+      <div class="cont">
         <div class="row">
           <div class="col mt-5">
               <h1 class="margs phrase">WE'VE GOT YOUR BRAND</h1>
@@ -39,11 +46,13 @@
     </div>
   </div>
 
+  <!--ABOUT-->
+
   <div class="row" id="about">
     <div class="background_main">
       <div class="text-center">
         <h2 class="mt-5 fw-bold">ABOUT XTZ ENTERPRISES</h2>
-        <div class="container">
+        <div class="cont">
           <div class="row">
             <div class="col mt-5">
               <div class="image-wrapper">
@@ -76,7 +85,7 @@
             </div>
             <div class="col-10 mt-2">
               <div class="container-fluid background_left">
-                <h5 class=" mt-0">XTZ Enterprises together with leading technology, strategic, 
+                <h5 class="mt-0">XTZ Enterprises together with leading technology, strategic, 
                   and channel partners, provide an outstanding customer experience offering solutions with the depth 
                   and breadth required in todays dynamic enterprise and service provider environments.</h5>
               </div>
@@ -129,12 +138,14 @@
     </div>
   </div>
 
-  <div class="row" id="products">
+  <!--PRODUCTs-->
+
+  <div class="row background_main cont" id="products">
     <div class="background_main text-center">
       <h1 class="mt-5 fw-bold">PRODUCTS</h1>
     </div>
-        <div class="col-md-3 background_main">
-          <div class="card">
+        <div class="col-md-3 background_main ">
+          <div class="card_product">
             <img class="icon show" src="/Assets/avaya.png" alt="avaya">
             <div class="hide"> <p>Avaya is known as a leader in helping organizations around
                the world succeed by integrating communications with business strategy and operations.
@@ -144,7 +155,7 @@
         </div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img class="icon show" src="/Assets//unify.png" alt="unify">
             <div class="hide"> <p>Unify's portfolio provides organizations with communications tools 
               to foster rich and meaningful conversations across channels, 
@@ -153,7 +164,7 @@
           </div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img  class="icon show" src="/Assets/gdata.png" alt="gdata">
             <div class="hide"><p>G DATA SOftware, with its head office in Bochum, is an innnovative and quickly expanding 
               software house focusing on antivirus security solutions. </p></div>
@@ -161,7 +172,7 @@
           </div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img class="icon show" src="/Assets/eset.png" alt="eset"  >
             <div class="hide"><p>ESET is an IT security company that offers anti-virus and firewall products such as ESET NOD32.
                ESET is headquartered in Bratislava, Slovakia, and was awarded the recognition of the most successful Slovak company in 
@@ -172,7 +183,7 @@
         <div class="background_main" style="height:20px ;"></div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img class="icon show" src="/Assets/avigilon.png" alt="avigilon">
             <div class="hide"><p>Avigilon a Motorola Solutions company, designs, develops and manufactures advanced AI, 
               video analytics, network video management software and 
@@ -181,15 +192,15 @@
         </div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
-            <img class="icon show" src="/Assets/dell.png" alt="dell">
+          <div class="card_product">
+            <img class="icon show" src="/Assets/dell.png" alt="dell" style="width:30%; height:30%;">
             <div class="hide"><p>Many innovations begin in-house, led by a global team of top engineers, product designers and technical experts.
                Others begin as a team effort with Dell's strategic partners.</p></div>
           </div>
         </div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img  class="icon show" src="/Assets/asus.png" alt="asus">
             <div class="hide"><p>ASUS continues to deliver on our In Search of Incredible promise as we strive to become the worlds
                most admired leading enterprise in the new digital era. Our In Search of Incredible campaign,
@@ -198,8 +209,8 @@
           </div>
         
         <div class="col-md-3 background_main">
-          <div class="card">
-            <img class="icon show" src="/Assets/hp.png" alt="hp">
+          <div class="card_product">
+            <img class="icon show" src="/Assets/hp.png" alt="hp" style="width:30%; height:30%;">
             <div class="hide"><p>HP is passionate about making our research real-driving technology to commercialization in the areas 
               most important to our customers and society. We are driven to create solutions that transform
                data into value, bytes into experiences, noise into knowledge.</p></div>
@@ -209,7 +220,7 @@
         <div class="background_main" style="height:20px ;"></div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img class="icon show" src="/Assets/lenovo.png" alt="lenovo">
             <div class="hide"><p>Lenovo is one of the worlds largest makers of personal computers and makes the world's most innovative PCs,
               including the renowned ThinkPad® notebook as well as products carrying the
@@ -218,7 +229,7 @@
         </div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img class="icon show" src="/Assets/eaton.png" alt="eaton">
             <div class="hide"><p>Power quality portfolio encompasses a comprehensive offering of power management 
               solutions from a single-source provider. This includes uninterruptible power supplies (UPSs), DC power solutions,
@@ -228,7 +239,7 @@
         </div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img  class="icon show" src="/Assets/hikvision.png" alt="hikvision">
             <div class="hide"><p>Hangzhou Hikvision Digital Technology Co., Ltd. is a Chinese manufacturer and world's largest 
               supplier of video surveillance products based in Hangzhou, China. 
@@ -237,8 +248,8 @@
         </div>
         
         <div class="col-md-3 background_main">
-          <div class="card">
-            <img class="icon show" src="/Assets/sangfor.png" alt="sangfor">
+          <div class="card_product">
+            <img class="icon show" src="/Assets/sangfor.png" alt="sangfor" style="width:35%; height:30%;">
             <div class="hide"><p>Founded in 2000, Sangfor is the leading and largest vendor of Network Security, Management & Optimization 
               solutions in Asia and is committed to provide continuous innovative nfw-boldbacketwork solutions</p></div>
           </div>
@@ -247,7 +258,7 @@
         <div class="background_main" style="height:20px ;"></div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img class="icon show" src="/Assets/sundray.png" alt="sundray">
             <div class="hide"><p>Sundray Technology Co., Ltd. is the best aa-in-one Enterprise WLAN vendor(3500+employees),
                the Chinese top 3 Enterprise WLAN vendor, the fastest-growing WLAN vendor.</p></div>
@@ -255,7 +266,7 @@
         </div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img class="icon show" src="/Assets/appliansys.png" alt="appliansys">
             <div class="hide"><p>ApplianSys, founded in 2000, is a privately held venture capital-backed technology company
                based in Coventry, United Kingdom. It designs, builds
@@ -264,7 +275,7 @@
         </div>
 
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img  class="icon show" src="/Assets/commscope.png" alt="commscope">
             <div class="hide"><p>CommScope Inc., which opened in 1976, is a multi-national network infrastructure
                provider company based in Hickory, North Carolina, United States. CommScope is a 1997 spin-off of
@@ -273,7 +284,7 @@
         </div>
         
         <div class="col-md-3 background_main">
-          <div class="card">
+          <div class="card_product">
             <img class="icon show" src="/Assets/siemon.png" alt="siemon">
             <div class="hide"><p>The Siemon Company, which opened in 1903, designs and manufactures IT infrastructure 
               solutions and services for Data Centers, Local Area Networks and Intelligent Buildings. The Siemon Company 
@@ -283,108 +294,112 @@
 
   </div>
 
-  <div class="row" id="contact">
+  <!--CAREERS-->
+
+  <div class="row background_main pads_left" id="career">
     <div class="background_main text-center">
-      <h1 class="mt-5 fw-bold">Contacts</h1>
+      <h1 class="mt-5 fw-bold">Careers</h1>
     </div>
-
-    <div class="row">
-      <div class="col mt-2">
-        <div class="image-wrapper">
-          <img
-            class="pic_size"
-            src="/Assets/phone-call.png"
-            alt="Vision"
-          />
-        </div>
-      </div>
-      <div class="col-10 mt-2">
-        <div class="container-fluid background">
-          <h5 class="fw-bold mt-0">
-            (02)7904-4711
-            (02) 8256-0362</h5>
-        </div>
-      </div>
-    </div>
-
     
-    <div class="row">
-      <div class="col mt-2">
-        <div class="image-wrapper">
-          <img
-            class="pic_size"
-            src="/Assets/smartphone.png"
-            alt="Vision"
-          />
+    <div class="col-md-6 background_main">
+      <div class="card_career">
+        <div>
+          <h5>JOB OFFERS</h5>
         </div>
-      </div>
-      <div class="col-10 mt-2">
-        <div class="container-fluid background">
-          <h5 class="fw-bold mt-0">
-            0917-123-2424</h5>
-        </div>
+          <p class="background_left list"> JOB OFFER 1</p>
+          <p class="background_left list"> JOB OFFER 2</p>
+          <p class="background_left list"> JOB OFFER 3</p>
+
+          <a class="btn center">
+            SEND INQUIRIES
+          </a>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col mt-2">
-        <div class="image-wrapper">
-          <img
-            class="pic_size"
-            src="/Assets/email (1).png"
-            alt="Vision"
-          />
+    <div class="col-md-6 background_main">
+      <div class="card_career">
+        <div>
+          <h5>INTERNSHIP</h5>
         </div>
-      </div>
-      <div class="col-10 mt-2">
-        <div class="container-fluid background">
-          <h5 class="fw-bold mt-0">sales@xtzbusiness.ph</h5>
-        </div>
+          <p class="background_left list"> INTERNSHIP 1</p>
+          <p class="background_left list"> INTERNSHIP 2</p>
+          <p class="background_left list"> INTERNSHIP 3</p>
+
+          <a class="btn center">
+            SEND INQUIRIES
+          </a>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col mt-2">
-        <div class="image-wrapper">
-          <img
-            class="pic_size"
-            src="/Assets/location.png"
-            alt="Vision"
-          />
-        </div>
-      </div>
-      <div class="col-10 mt-2">
-        <div class="container-fluid background">
-          <h5 class="fw-bold mt-0">4F , Unit 401, Freedom Plaza Building, 217 N. Domingo St. San Juan</h5>
-        </div>
-      </div>
-    </div>
-
-    <div>
-      <input type="text" name="name" placeholder="NAME">
-      <input type="text" name="email" placeholder="EMAIL">
-      <input type="text" name="subject" placeholder="SUBJECT">
-      <input type="text" name="message" placeholder="MESSAGE">
-      
-      <button> SEND </button> 
-    </div>
-
-    <div>
-      <a href="#contact">Contact</a>
-      <a href="#career">Careers</a>
-      <a href="#products">Products</a>
-      <a href="#about">About</a>
-      <a href="#home">Home</a>
-
-
-    </div>
-
   </div>
-  <img src="/Assets/up.png" href="#home" style="height: 50px; width:50px ; ">
-  </div>
+
+  <!--CONTACTS-->
+
+  <div class="row background_main pads_left" id="contact">
+    <div class="text-center">
+      <h1 class="mt-5 fw-bold">Contact Us!</h1>
+    </div>
   
-  <div class="container-fluid background">
-    <h5 class="fw-bold mt-0">COPYRIGHT 2014 XTZ Corporation</h5>
-  </div>
+    <div class="row">
+      <div class="col mt-3">
+        <div class="card_email" style="background-color:#f6f4ef;">
+          <div class="col-md-20">
 
+              <button><img class="icon_contacts show" src="/Assets/phone-call.png" id="landline" alt="phone-call">
+                <p class="hide">(02) 8256-0362 / (02) 7904-4711</p></button>
+              <button><img class="icon_contacts show" src="/Assets/smartphone.png" alt="smartphone">
+                <p class="hide">0917-123-2424</p></button>
+              <button><img class="icon_contacts show" src="/Assets/email (1).png" alt="email">
+                <p class="hide">sales@xtzbusiness.ph</p></button>
+              <button><img class="icon_contacts show" src="/Assets/location.png" alt="location">
+                <iframe class="hide" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d760.5773016921208!2d121.02676274761141!3d14.607894326084741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b741645577db%3A0x84ba64f32da6ed97!2sFreedom%20Plaza%20Building!5e0!3m2!1sen!2sph!4v1655868945392!5m2!1sen!2sph"
+                  width="100%" height="220" style="border:0;"
+                  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></button>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col mt-3">
+        <section>
+          <div class="container">
+            <form action="https://formspree.io/mbjzbwaj" method="POST" id="my-form">
+          
+              <div class="form-group">
+                <label for="name"> Name</label>
+                <input type="text" id="name" name="name">
+              </div>
+          
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject">
+              </div>
+          
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="5"></textarea>
+              </div>
+          
+              <button type="submit" >Submit</button>
+            </form>
+          </div>
+          <div id="status"></div>
+        </section>
+      </div>
+    </div>
+
+  </div>  
+
+  <!--FOOTER-->
+  
+  <div class="row background_right footer_design cont" style="justify-content: center;" id="footer">
+    <a src="/Assets/up.png" href="#" style="width:100px; height:100px ; margin-top: 1%;"></a>
+    <div class="container-fluid background" style="text-align: center;">
+      <p>COPYRIGHT 2014 @ XTZ CORPORATION</p>
+    </div>
+  </div>
 </body>
