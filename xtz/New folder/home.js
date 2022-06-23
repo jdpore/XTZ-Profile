@@ -1,5 +1,3 @@
-
-<script>
 function openForm() {
   document.getElementById("myForm").style.display = "block"
 }
@@ -58,5 +56,5 @@ function ajax(method, url, data, success, error) {
   xhr.send(data);
 }
 
-</script>
+
 

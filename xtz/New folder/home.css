@@ -20,7 +20,6 @@
 .topnav a:hover {
   background-color: #ddd;
   color: black;
-  
 }
 
 /* Add an active class to highlight the current page */
@@ -34,15 +33,10 @@
   display: none;
 }
 
-.margs {
-  margin-top: 50%;
-  margin-bottom: 50%;
-}
-
 .phrase {
-  font-size: 50 px;
-  font-style: bold;
-  font-family: verdana;
+  font-size: 350%;
+  font-family: "Nova Round", cursive;
+  color: #ff6c0c;
 }
 
 .column {
@@ -62,7 +56,7 @@
 }
 
 .background_right {
-  background-image: linear-gradient(to right, #e3a174, #f4efe6);
+  background-color: #e9eced;
 }
 
 .background_main {
@@ -102,7 +96,7 @@
 /* On mouse-over, add a deeper shadow */
 .card_product:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  background-color: #D6D4D1;
+  background-color: #d6d4d1;
 }
 
 /* Add some padding inside the card container */
@@ -144,7 +138,7 @@ a:hover {
 }
 
 .next {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
@@ -152,15 +146,15 @@ a:hover {
   border-radius: 50%;
 }
 
-.pads_left{
+.pads_left {
   padding-left: 5%;
 }
 
-.pads_career{
+.pads_career {
   padding-top: 10%;
 }
 
-.footer_design{
+.footer_design {
   padding-left: 10%;
 }
 
@@ -173,7 +167,6 @@ a:hover {
   color: #000000;
   border: 5px;
   background-color: #e3b43352;
-  
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -189,20 +182,19 @@ a:hover {
   padding: 20px;
   color: #000000;
   border: 5px;
-  background-color: #D6D4D1;
+  background-color: #d6d4d1;
   border-radius: 10px;
-  
 }
 
-.icon_contacts{
+.icon_contacts {
   width: 15%;
   height: 15%;
 }
 
-div.relative{
+div.relative {
   position: relative;
   left: 20px;
-  border: 3px solid #73AD21;
+  border: 3px solid #73ad21;
 }
 
 .center {
@@ -213,11 +205,11 @@ div.relative{
 }
 
 .list {
- width: 100% ;
- height:20% ;
+  width: 100%;
+  height: 20%;
 }
 
-.btn{
+.btn {
   background-color: #e3a174;
   border: #000000;
 }
@@ -315,9 +307,79 @@ button[type="submit"]:hover {
   }
 }
 
-.text_product{
+.text_product {
   text-align: justify;
   padding-left: 5%;
   padding-right: 5%;
   font-size: 15;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  position: absolute;
+  top: 27%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 150px;
+}
+
+ul li {
+  list-style: none;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #e99311;
+  transform: rotate(45deg);
+}
+
+ul li.item1 {
+  top: 0;
+  left: 0;
+}
+
+ul li.item2 {
+  top: -105%;
+  left: 31.5%;
+}
+
+ul li.item3 {
+  top: 105%;
+  left: 31.5%;
+}
+
+ul li.item4 {
+  top: 210%;
+  left: 5%;
+}
+
+ul li.item5 {
+  top: 210%;
+  left: 57.5%;
+}
+
+ul li.item6 {
+  top: 0;
+  left: 57.5%;
+}
+
+ul li.item7 {
+  top: 105%;
+  left: 83%;
+}
+
+ul li.item8 {
+  top: -105%;
+  left: 83%;
+}
+
+.pic_style {
+  transform: rotate(-45deg);
+  overflow: hidden;
 }
