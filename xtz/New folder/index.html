@@ -19,10 +19,10 @@
   <script type="module" src="home.js"></script>
 </head>
 
-<body>
+<body style="overflow-x: hidden">
   <!--NAVBAR-->
   <div class="topnav sticky" id="myTopnav">
-    <a href="#contact">Contact</a>
+    <a style="margin-right: 5%" href="#contact">Contact</a>
     <a href="#career">Careers</a>
     <a href="#products">Products</a>
     <a href="#about">About</a>
@@ -52,15 +52,7 @@
           <div class="margs col-6 mt-5">
             <ul>
               <li class="iteml">
-                <div class="bg">
-                  <img
-                    class="pic_style"
-                    src="/Assets/dev.jpg"
-                    width="200"
-                    height="200"
-                    alt="xtzlogo"
-                  />
-                </div>
+                <div class="bg"></div>
               </li>
               <li class="item2"><div class="bg"></div></li>
               <li class="item3"><div class="bg"></div></li>
@@ -166,57 +158,50 @@
 
   <!--PRODUCTs-->
 
-  <div class="row background_main cont" id="products">
-    <div class="background_main text-center">
-      <h1 class="mt-5 fw-bold">PRODUCTS</h1>
-    </div>
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/avaya.png" alt="avaya" />
-        <div class="hide text_product">
-          <p>
-            Avaya is known as a leader in helping organizations around the world
-            succeed by integrating communications with business strategy and
-            operations. In fact, Avaya came about as an independent company so
-            it could bring even more focus to innovating in business
-            communications.
-          </p>
-        </div>
+  <div class="row" id="products">
+    <div class="background_main">
+      <div class="text-center">
+        <h2 class="mt-5 fw-bold">PRODUCTS</h2>
       </div>
-    </div>
+      <div class="row cont">
+        <div class="col-md-3 main_container">
+          <div class="h-100 w-100 d-flex align-items-center">
+            <img src="/Assets/avaya.png" alt="avaya" class="w-100" />
+          </div>
+          <div class="overlay">
+            <p class="font1">AVAYA</p>
+            <p class="font2">
+              Avaya is known as a leader in helping organizations around the
+              world succeed by integrating communications with business strategy
+              and operations. In fact, Avaya came about as an independent
+              company so it could bring even more focus to innovating in
+              business communications.
+            </p>
+          </div>
+        </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets//unify.png" alt="unify" />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets//unify.png" alt="unify" />
+          <p class="hide text_product">
             Unify's portfolio provides organizations with communications tools
             to foster rich and meaningful conversations across channels,
             platforms and media for a mobile, real-time and collaborative way to
             work.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/gdata.png" alt="gdata" />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/gdata.png" alt="gdata" />
+          <p class="hide text_product">
             G DATA SOftware, with its head office in Bochum, is an innnovative
             and quickly expanding software house focusing on antivirus security
             solutions.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/eset.png" alt="eset" />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/eset.png" alt="eset" />
+          <p class="hide text_product">
             ESET is an IT security company that offers anti-virus and firewall
             products such as ESET NOD32. ESET is headquartered in Bratislava,
             Slovakia, and was awarded the recognition of the most successful
@@ -225,47 +210,30 @@
           </p>
         </div>
       </div>
-    </div>
 
-    <div class="background_main" style="height: 20px"></div>
-
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/avigilon.png" alt="avigilon" />
-        <div class="hide">
-          <p>
+      <div class="row cont">
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/avigilon.png" alt="avigilon" />
+          <p class="hide text_product">
             Avigilon a Motorola Solutions company, designs, develops and
             manufactures advanced AI, video analytics, network video management
             software and hardware, surveillance cameras, and access control
             solutions.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img
-          class="icon show"
-          src="/Assets/dell.png"
-          alt="dell"
-          style="width: 30%; height: 30%"
-        />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/dell.png" alt="dell" />
+          <p class="hide text_product">
             Many innovations begin in-house, led by a global team of top
             engineers, product designers and technical experts. Others begin as
             a team effort with Dell's strategic partners.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/asus.png" alt="asus" />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/asus.png" alt="asus" />
+          <p class="hide text_product">
             ASUS continues to deliver on our In Search of Incredible promise as
             we strive to become the worlds most admired leading enterprise in
             the new digital era. Our In Search of Incredible campaign, launched
@@ -273,19 +241,10 @@
             philosophy.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img
-          class="icon show"
-          src="/Assets/hp.png"
-          alt="hp"
-          style="width: 30%; height: 30%"
-        />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/hp.png" alt="hp" />
+          <p class="hide text_product">
             HP is passionate about making our research real-driving technology
             to commercialization in the areas most important to our customers
             and society. We are driven to create solutions that transform data
@@ -293,29 +252,21 @@
           </p>
         </div>
       </div>
-    </div>
 
-    <div class="background_main" style="height: 20px"></div>
-
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/lenovo.png" alt="lenovo" />
-        <div class="hide">
-          <p>
+      <div class="row cont">
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/lenovo.png" alt="lenovo" />
+          <p class="hide text_product">
             Lenovo is one of the worlds largest makers of personal computers and
             makes the world's most innovative PCs, including the renowned
             ThinkPad® notebook as well as products carrying the ThinkCentre®,
             ThinkStation®, ThinkServer®, IdeaCentre® and IdeaPad® sub-brands.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/eaton.png" alt="eaton" />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/eaton.png" alt="eaton" />
+          <p class="hide text_product">
             Power quality portfolio encompasses a comprehensive offering of
             power management solutions from a single-source provider. This
             includes uninterruptible power supplies (UPSs), DC power solutions,
@@ -324,76 +275,55 @@
             enclosures and services.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/hikvision.png" alt="hikvision" />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/hikvision.png" alt="hikvision" />
+          <p class="hide text_product">
             Hangzhou Hikvision Digital Technology Co., Ltd. is a Chinese
             manufacturer and world's largest supplier of video surveillance
             products based in Hangzhou, China. Its controlling shares are owned
             by the Chinese government.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img
-          class="icon show"
-          src="/Assets/sangfor.png"
-          alt="sangfor"
-          style="width: 35%; height: 30%"
-        />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/sangfor.png" alt="sangfor" />
+          <p class="hide text_product">
             Founded in 2000, Sangfor is the leading and largest vendor of
             Network Security, Management & Optimization solutions in Asia and is
             committed to provide continuous innovative nfw-boldbacketwork
-            solutions
+            solutions.
           </p>
         </div>
       </div>
-    </div>
 
-    <div class="background_main" style="height: 20px"></div>
-
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/sundray.png" alt="sundray" />
-        <div class="hide">
-          <p>
+      <div class="row cont">
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/sundray.png" alt="sundray" />
+          <p class="hide text_product">
             Sundray Technology Co., Ltd. is the best aa-in-one Enterprise WLAN
             vendor(3500+employees), the Chinese top 3 Enterprise WLAN vendor,
             the fastest-growing WLAN vendor.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/appliansys.png" alt="appliansys" />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img
+            class="icon show"
+            src="/Assets/appliansys.png"
+            alt="appliansys"
+          />
+          <p class="hide text_product">
             ApplianSys, founded in 2000, is a privately held venture
             capital-backed technology company based in Coventry, United Kingdom.
             It designs, builds and markets Internet server appliances that are
             deployed in more than 150 countries.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/commscope.png" alt="commscope" />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/commscope.png" alt="commscope" />
+          <p class="hide text_product">
             CommScope Inc., which opened in 1976, is a multi-national network
             infrastructure provider company based in Hickory, North Carolina,
             United States. CommScope is a 1997 spin-off of General Instrument
@@ -401,14 +331,10 @@
             countries.
           </p>
         </div>
-      </div>
-    </div>
 
-    <div class="col-md-3 background_main">
-      <div class="card_product">
-        <img class="icon show" src="/Assets/siemon.png" alt="siemon" />
-        <div class="hide">
-          <p>
+        <div class="col-md-3 main_container">
+          <img class="icon show" src="/Assets/siemon.png" alt="siemon" />
+          <p class="hide text_product">
             The Siemon Company, which opened in 1903, designs and manufactures
             IT infrastructure solutions and services for Data Centers, Local
             Area Networks and Intelligent Buildings. The Siemon Company offers
