@@ -19,7 +19,7 @@
 .topnav a::after {
   content: "";
   width: 0;
-  height: 3px;
+  height: 1px;
   background-color: coral;
   margin: auto;
   display: block;
@@ -32,7 +32,6 @@
 
 .topnav a:hover::after {
   width: 100%;
-  transition: width 0.3s linear;
 }
 
 /* Add an active class to highlight the current page */
