@@ -9,6 +9,21 @@
     href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap"
     rel="stylesheet"
   />
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  
+
+
+
   <link rel="stylesheet" href="home.css" />
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -242,7 +257,7 @@
 
         <div class="col-md-3 main_container">
           <div class="h-100 w-100 d-flex align-items-center">
-            <img src="/Assets/dell.png" alt="DELL" class="w-100" />
+            <img src="/Assets/dell.png" alt="DELL" class="w-100"/>
           </div>
           <div class="overlay">
             <p class="font1">DELL</p>
@@ -420,145 +435,81 @@
     </div>
 
     <div class="col-md-6 background_main">
-      <div class="card_career" style="border-radius: 5%">
-        <div>
-          <h5>JOB OFFERS</h5>
-        </div>
-        <p class="background_left list">JOB OFFER 1</p>
-        <p class="background_left list">JOB OFFER 2</p>
-        <p class="background_left list">JOB OFFER 3</p>
-
-        <a class="btn center"> SEND INQUIRIES </a>
-      </div>
+<!-------------------------------------------------------------------------------------->
+<div id="container">
+    
+  <input hidden type="radio" name="carousel-control" id="button_a" checked/>
+  <input hidden type="radio" name="carousel-control" id="button_b"/>
+  <input hidden type="radio" name="carousel-control" id="button_c"/>
+  <input hidden type="radio" name="carousel-control" id="button_d"/>            
+          
+  <div id="carousel">
+      <div class="p-wrapper">
+                  
+          <section class="panel_a">
+            <div class="h-100 w-100 d-flex align-items-center">
+              <img src="/Assets/cctv.jpg" alt="cctv" class="w-100" />
+            </div>
+          </section>
+                  
+          <section class="panel_b">
+            <h1>PICTURE 2</h1>
+          </section>
+                  
+          <section class="panel_c">
+            <h1>PICTURE 3</h1>
+          </section>
+                  
+          <section class="panel_d">
+            <h1>PICTURE 4</h1>
+          </section>
+                  
+      </div> <!-- // .p-wrapper -->
+  </div> <!-- // #carousel -->            
+          
+  
+  <div id="navigation">
+      <label for="button_a" class="label_a"> <span>a</span> </label>
+      <label for="button_b" class="label_b"> <span>b</span> </label>
+      <label for="button_c" class="label_c"> <span>c</span> </label>
+      <label for="button_d" class="label_d"> <span>d</span> </label>
+  </div> <!-- // #navigation -->               
+          
+  
+</div> <!-- // #container -->
     </div>
 
     <div class="col-md-6 background_main">
-      <div class="card_career" style="border-radius: 5%">
-        <div>
-          <h5>INTERNSHIP</h5>
-        </div>
-        <p class="background_left list">INTERNSHIP 1</p>
-        <p class="background_left list">INTERNSHIP 2</p>
-        <p class="background_left list">INTERNSHIP 3</p>
 
-        <a class="btn center"> SEND INQUIRIES </a>
-      </div>
-    </div>
   </div>
 
-  <!--CONTACTS-->
 
-  <div class="row background_main pads_left" id="contact">
-    <div class="text-center">
-      <h1 class="mt-5 fw-bold">Contact Us!</h1>
-    </div>
 
-    <div class="row">
-      <div class="col mt-3">
-        <div class="card_email" style="background-color: #f6f4ef">
-          <div class="col-md-20">
-            <button>
-              <img
-                class="icon_contacts show"
-                src="/Assets/phone-call.png"
-                id="landline"
-                alt="phone-call"
-              />
-              <p class="hide">(02) 8256-0362 / (02) 7904-4711</p>
-            </button>
-            <button>
-              <img
-                class="icon_contacts show"
-                src="/Assets/smartphone.png"
-                alt="smartphone"
-              />
-              <p class="hide">0917-123-2424</p>
-            </button>
-            <button>
-              <img
-                class="icon_contacts show"
-                src="/Assets/email (1).png"
-                alt="email"
-              />
-              <p class="hide">sales@xtzbusiness.ph</p>
-            </button>
-            <button>
-              <img
-                class="icon_contacts show"
-                src="/Assets/location.png"
-                alt="location"
-              />
-              <iframe
-                class="hide"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d760.5773016921208!2d121.02676274761141!3d14.607894326084741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b741645577db%3A0x84ba64f32da6ed97!2sFreedom%20Plaza%20Building!5e0!3m2!1sen!2sph!4v1655868945392!5m2!1sen!2sph"
-                width="100%"
-                height="220"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col mt-3">
-        <section>
-          <div class="container" style="border-radius: 5%">
-            <form
-              action="https://formspree.io/mbjzbwaj"
-              method="POST"
-              id="my-form"
-            >
-              <div class="form-group">
-                <label for="name"> Name</label>
-                <input type="text" id="name" name="name" />
-              </div>
-
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" />
-              </div>
-
-              <div class="form-group">
-                <label for="subject">Subject</label>
-                <input type="text" id="subject" name="subject" />
-              </div>
-
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea
-                  name="message"
-                  id="message"
-                  cols="30"
-                  rows="5"
-                ></textarea>
-              </div>
-
-              <button type="submit">Submit</button>
-            </form>
-          </div>
-          <div id="status"></div>
-        </section>
-      </div>
-    </div>
-  </div>
-
+<!----------------------------------------------------------------------------------------->
   <!--FOOTER-->
+  <footer class="footer">
+    <div class="container bottom_border" style="background-color: #333;">
+      <div class="row">
+        <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+        <h5 class="headin5_amrc col_white_amrc pt2">Find us at</h5>
+        <p><i class="fa fa-location-arrow"></i> 4F , Unit 401, Freedom Plaza Building, 217 N. Domingo St. San Juan </p>
+        </div>
 
-  <div
-    class="row background_right footer_design cont"
-    style="justify-content: center"
-    id="footer"
-  >
-    <a
-      src="/Assets/up.png"
-      href="#"
-      style="width: 100px; height: 100px; margin-top: 1%"
-    ></a>
-    <div class="container-fluid background" style="text-align: center">
-      <p>COPYRIGHT 2014 @ XTZ CORPORATION</p>
+        <div class=" col-sm-4 col-md  col-6 col">
+          <div class="h-100 w-100 d-flex align-items-center">
+            <img src="/Assets/xtzlogo.png" alt="xtzbusiness" class="w-25 h-10 align-items-center center" />
+          </div>
+        </div>
+
+      <div class=" col-sm-4 col-md  col-12 col">
+        <h5 class="headin5_amrc col_white_amrc pt2">Contact Us</h5>
+        <p><i class="fa fa-phone"></i>  (02) 8256-0362 / (02) 7904-4711 / 0917-123-2424</p>
+        <p><i class="fa fa fa-envelope"></i> sales@xtzbusiness.ph  </p>
+      </div>
     </div>
-  </div>
+
+    <p class="text-center">Copyright @2017 | Designed With by XTZ CORPORATION</p>
+    
+  </footer>
+    
 </body>
